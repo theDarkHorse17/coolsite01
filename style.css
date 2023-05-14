@@ -1,0 +1,511 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;   
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#load{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color:f1,f1,f1;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: f1,f1,f1;
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: f1,f1,f1;
+}
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: f1,f1,f1;
+}
+canvas{
+    position: relative;
+    max-width: 100vw;
+    height: 100vh;
+} 
+#page4{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    z-index: 90;
+    color: aliceblue;
+    font-family: 'Urbanist', 'Noto Sans KR', sans-serif;
+    text-align: center;
+}
+#page6{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    z-index: 90;
+    color: aliceblue;
+    font-family: 'Urbanist', 'Noto Sans KR', sans-serif;
+    text-align: center;
+}
+#page5{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    z-index: 90;
+    color: aliceblue;
+    font-family: 'Urbanist', 'Noto Sans KR', sans-serif;
+    text-align: center;
+}
+#loop{
+    position: absolute;
+    top:30%;
+    width: 100%;
+    height: 25%;
+    font-size: 100px;
+    white-space: nowrap;
+    font-family: 'Urbanist', 'Noto Sans KR', sans-serif;
+    font-weight: 100;
+    display: flex;
+}
+#loop>h1{
+    font-weight: 400;
+    animation-name: anim;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0ms;
+}
+#loop>h1>span{
+    -webkit-text-stroke: 1.2px rgb(244, 0, 0);
+    color: transparent;
+}
+/* infiniftelooop */
+@keyframes anim{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translate(-100%);
+    }
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7%;
+    width: 100%;
+    z-index: 99;
+    opacity: 100%;
+    padding: 0px 30px;
+}
+#nav>h3{
+    font-family:gilroy;
+    font-weight: 400;
+}
+#nav>button{
+    padding: 8px 16px;
+color: aliceblue;
+background-color: black;
+border-radius: 30px;
+border: none;
+
+}
+#page>h3{
+    padding: 0px 50px;
+    font-size: 1.5rem;
+    font-family: gilroy;
+    position: absolute;
+    font-weight: 400;
+    top: 65%;
+    color: grey;
+}
+#page>h4{
+    padding: 0px 50px;
+    font-size: .92rem;
+    font-family: gilroy;
+    position: absolute;
+    font-weight: 500;
+    top: 80%;
+    color: rgb(90, 88, 88);
+    left: 20%;   
+}
+#page>h2{
+    text-align: right;
+    padding: 0px 50px;
+    font-size: 1.5rem;
+    font-family: gilroy;
+    position: relative;
+    font-weight: 400;
+    top: 65%;
+    color: grey;
+}
+#page1>h2{
+    padding: 0px 50px;
+    font-size: 1.3rem;
+    font-family: gilroy;
+    position: relative;
+    font-weight: 400;
+    top: 20%;
+    color: grey;
+}
+#page1>h1{
+    padding: 0px 50px;
+    font-family: gilroy;
+    position: relative;
+    font-weight: 400;
+    font-size:120px;
+    top: 15%;
+    color: rgb(0, 0, 0);
+}
+#page1>h3{
+    text-align: right;
+    padding: 0px 50px;
+    font-size: 1.5rem;
+    font-family: gilroy;
+    position: relative;
+    font-weight: 400;
+    top: 25%;
+    color: grey;
+}
+.block {
+    margin-left:  50px;
+    margin-top: 60vh;
+    width: 300px;
+  height: 200px;
+  background-color: #f0f0f0;
+  border: 1px solid #000000;
+  padding: 20px;
+  position: relative;
+  }
+  .block h4{
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 10px;
+  }
+  .block h4 span{
+    top: 10px;
+    color: red;
+}
+  .progress-bar {
+    margin-top: 10px;
+    height: 20px;
+    background-color: #6cbf6c;
+    width: 75%;
+    border-radius: 5px;
+  }
+  
+#page2 > h1 {
+    top: 0%;
+    position: absolute;
+    transform: translate3d(0,0,0,);
+   margin-left: 62%;
+    z-index: 20;
+    font-size: 120px;
+}
+#page2>h3{
+    padding: 0px 50px;
+    font-size: 1.5rem;
+    font-family: gilroy;
+    position: relative;
+    font-weight: 400;
+    top: 45%;
+    color: grey;
+}
+#page3 > h1 {
+    top: 0%;
+    position: absolute;
+    margin-left: 50px;
+    font-size: 120px;
+}
+#page3>h3{
+    padding: 0px 50px;
+    font-size: 1.5rem;
+    position: relative;
+    font-weight: 400;
+    top: 45%;
+    color: grey;
+}
+#page4>h1{
+    padding-top: 100px;
+    top: 100px;
+    font-size: 60px;
+}
+#page4>h2{
+    top: 10px;
+    font-weight: 100;
+}
+#page6>h1{
+    padding-top: 100px;
+    top: 100px;
+    font-size: 60px;
+}
+#page6>h2{
+    margin: top 7px;
+    top: 100px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:20px ;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.services-list div{
+    background-color: white;
+    padding: 20px;
+    color: #000;
+    font-size:13px;
+    font-weight: 300;
+    border-radius: 20px;
+}
+.services-list div h2{
+    font-size:15px ;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+.services-list div a{
+    text-decoration: none;
+    color:rgb(172, 41, 41);
+    margin-top:20px ;
+    margin-bottom: 20px;
+    font-size: 12px;
+    position: relative;
+}
+.services-list div h1{
+    font-size:20px;
+}
+/* --------------------------------- */
+#loop1{
+    font-size: 60px;
+    white-space: nowrap;
+    font-family: 'Urbanist', 'Noto Sans KR', sans-serif;
+    font-weight: 100;
+    display: flex;
+}
+#loop1>h1{
+    font-weight: 400;
+    animation-name: anim;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0ms;
+}
+#loop1>h1{
+    -webkit-text-stroke: 1.2px rgb(244, 0, 0);
+    color: transparent;
+}
+/* infiniftelooop */
+@keyframes anim{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translate(-100%);
+    }
+}
+/* ------------------------------------ */
+#loop2{
+    font-size: 60px;
+    white-space: nowrap;
+    font-family: 'Urbanist', 'Noto Sans KR', sans-serif;
+    font-weight: 100;
+    display: flex;
+}
+#loop2>h1{
+    font-weight: 400;
+    animation-name: anim2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0ms;
+}
+#loop2>h1{
+    -webkit-text-stroke: 1.2px rgb(244, 0, 0);
+    color: transparent;
+}
+/* infiniftelooop */
+@keyframes anim2{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+/* --------------------- */
+#loop3{
+    font-size: 60px;
+    white-space: nowrap;
+    font-family: 'Urbanist', 'Noto Sans KR', sans-serif;
+    font-weight: 100;
+    display: flex;
+}
+#loop3>h1{
+    font-weight: 400;
+    animation-name: anim;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0ms;
+}
+#loop3>h1{
+    -webkit-text-stroke: 1.2px rgb(244, 0, 0);
+    color: transparent;
+}
+/* infiniftelooop */
+@keyframes anim{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translate(-100%);
+    }
+}
+.overlay {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px; /* Adjust the size as needed */
+    height: 600px; /* Adjust the size as needed */
+    z-index: 1;
+  }
+#page5>h4{
+    padding-top:10px;
+    top: 100px;
+    font-size: 40px;
+    font-weight: 600;
+}
+#page5>h1{
+    padding-top:-10px;
+    top: 100px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.vertical-line {
+    margin-top: 50px;
+    border-left: 1px solid rgb(244, 239, 239);
+    height: 200px; 
+    margin-left: 50%;
+    margin-bottom: 50px;
+    font-weight: 100;
+  }
+  #page5>h2{
+    margin: top 7px;
+    top: 100px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    background: #000000;
+    color: #fff;
+    padding: 0 0 2rem;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  
+  .foot-link {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .foot-link a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    padding:5px;
+    margin:5px;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .foot-link a:hover {
+    background: #fff;
+    color: #000;
+  }
+  
+  .foot-copy {
+    width: 80%;
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 150px;
+    letter-spacing: -2px;
+    line-height: 0.9em;
+  }
+  
+  .linethrough a {
+    text-decoration: line-through;
+  }
+.end{
+    margin-top: -10px;
+}
+#loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 4px solid #333;
+    border-top-color: #777;
+    animation: spin 1s infinite linear;
+    margin-bottom: 20px;
+}
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+h6 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+  

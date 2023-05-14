@@ -28,8 +28,8 @@ License
 This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as you see fit. Attribution is appreciated but not required.
 
 Contact
-If you have any questions, suggestions, or collaboration opportunities, please feel free to reach out to me. You can find my contact information on my portfolio website.
+If you have any questions, suggestions, or collaboration opportunities, please feel free to reach out to me. You can find my contact information on my portfolio website.https://thedarkhorse17.github.io/portfolio.github.io/
 
 Thank you for stepping into my world of captivating digital realities. Enjoy the journey!
 
-- Your Name
+- TheDarkHorse
